@@ -3,6 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import "./modal.css";
 
+/**
+ * This component display a modal
+ * @param {*} props 
+ * @returns {JSX} react component
+ */
 export default function Modal(props) {
   return (
     <div className="modal">
