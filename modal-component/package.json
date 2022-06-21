@@ -11,6 +11,11 @@
     "type": "git",
     "url": "https://github.com/Anlp33/modal-component.git"
   },
+  "keywords": [
+    "react",
+    "modal",
+    "modal component"],
+  "author": "Anne-Laure Poiré <annelaure.poire@gmail.com>",
   "dependencies": {
     "@babel/cli": "^7.17.10",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
