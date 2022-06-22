@@ -30,13 +30,15 @@ const handleSubmit = (e) => {
 
 return (
   <div>
-    <Modal
-              message={"Employee successfully created"}
-              onClose={() => {
-                setOpenModal(!openModal);
-                setFormDisplay(!formDisplay);
-              }}
-            />
+     {openModal && (
+        <Modal
+          message={"Employee successfully created"}
+          onClose={() => {
+            setOpenModal(false);
+            setFormDisplay(!formDisplay);
+          }}
+        />
+      )}
   </div>
 )
 }
