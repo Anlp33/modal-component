@@ -2,7 +2,8 @@
   display: flex;
   border-radius: 50px;
   box-shadow: 3px 3px 9px 0px grey;
-  padding: 12px;
+  padding: 10px 10px 10px 20px;
+  justify-content: space-between;
 }
 .modal button {
   height: 25px;

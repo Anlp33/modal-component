@@ -15,13 +15,18 @@ var _freeSolidSvgIcons = require("@fortawesome/free-solid-svg-icons");
 
 require("./modal.css");
 
+/**
+ * This component display a modal
+ * @param {*} props
+ * @returns {JSX} react component
+ */
 function Modal(props) {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "modal"
   }, /*#__PURE__*/_react.default.createElement("h3", null, props.message), /*#__PURE__*/_react.default.createElement("button", {
     type: "button",
     className: "modal-close-button",
-    onClick: props.closeModal
+    onClick: props.onClose
   }, /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
     icon: _freeSolidSvgIcons.faCircleXmark
   })));
