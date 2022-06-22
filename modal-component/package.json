@@ -1,6 +1,6 @@
 {
   "name": "modal-component-anlp33",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
@@ -14,7 +14,8 @@
   "keywords": [
     "react",
     "modal",
-    "modal component"],
+    "modal component"
+  ],
   "author": "Anne-Laure Poiré <annelaure.poire@gmail.com>",
   "dependencies": {
     "@babel/cli": "^7.17.10",
